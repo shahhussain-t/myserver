@@ -16,6 +16,17 @@ app.get('/about',(req,res)=>{
     res.send("hello from shahhussain")
 })
 
+app.get('/contact',(req,res)=>{
+
+    res.send(`<h1>welcome to contact page</h1>`)
+})
+
+app.get('/homepage',(req,res)=>{
+
+    res.send("<h1>welcome to homepage</h1>")
+})
+
+
 
 
 app.listen(port,()=>{
